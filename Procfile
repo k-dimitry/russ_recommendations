@@ -1,0 +1,1 @@
+web: gunicorn russ_recommendations.wsgi --log-file -

@@ -2,7 +2,6 @@ from django.shortcuts import render, redirect
 from django.template.loader import get_template
 from django.http import HttpResponse
 
-from .utils import render_to_pdf
 from recommendation.forms import RecommendationForm
 from recommendation.models import Recommendation
 
