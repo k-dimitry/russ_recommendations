@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}Рекомендация{% endblock %}
+
+{% block content %}
+    <div class="col-md-6">
+        <p>
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhQTExQWFRUXFx0bGBgWGB0ZGxsdHxsdFxodGhodHyggGBomHR8YIjEhJSouLi4uHR8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAF8BLAMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAABQMEBgcCAf/EAEAQAAIBAgMEAg8GBwADAAAAAAECAwARBBIhBQYxQRNRFiIyNFJTYXFykZKxwdHSB4GCoaKyFBUjM0Ji4UNj8P/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDoW7O72Glw0ckkeZjmuczDg7AaA24AU07E8H4r9b/VRuZ3nF+L97U7oEnYng/Ffrf6qOxPB+K/W/1U7rM7d23PC+RUDjQkqpNhzDcr0FvsTwfiv1v9VHYng/Ffrf6qYbNxvTIHCsoIuL2181qt0CTsTwfiv1v9VHYng/Ffrf6qnjxOIExVowYzwcG1vu500oEnYng/Ffrf6qOxPB+K/W/1U7ooEnYng/Ffrf6qq7CwaQ4zEpGMqhEsLk8Rc6nWtLSHZ/f+J9CP3UD6sdvpteeGRBE5UFTfQH3itjWA+0P+7H6J+FAr7KMZ44+yvyo7KMZ44+yvypvuVsmGdHMqBiG01I5DqNaTsXwfiR62+dBho958Xcf1jx8FflXToTdQfIKVjdjCD/wj1t86bAW0oM5trbZhxcS37QizDz8DWjBvXL9758+Kk8lh6q2O5m0+mgyk9smh83Kg0FFFFBS2xjhBC8h5DTynkKq7rY0zYdWY3a5BPlvf3EVlt/Nq55BCp7VO68rf8+dM/s7mvFInUwPrGvuFBraR7e3kjw/ajt5PBHLz1JvRtf8Ahorju20X4n7q5pBDJPIFF2djQNMbvVipDo+QdSi358aoHa2I8dL7bfOt1sjdCGMAyDO3l4CnP8sg8VH7Av67UHOsHvTioz3ecdTa/nxrY7C3njxFlbtH6jwPmNedq7pwSglB0bdY4feKxH8nnWcQhTnvoR1eFfqoOsUVDg0ZUUOczAAE9ZqagKKKKAooooCiiigSbmd5xfi/e1O6R7nG2CiPp/vapZ95MMlwz2I5EG9A3r5lFZjY290T5+mYIc3aCx7nlw51pYZQ4zKbg/8A3Og+xxhRYCw8leqKKAooooKMuNdZljMZKsO7XUD0uqr1FF6ApDs/v/E+hH7qfUh2f3/ifQj91A+rAfaH/dj9E/Ct/WA+0P8Aux+ifhQR7o7diwyOJL3LXFhfkK1Gzt54J5FjTNma9rjqBPwrC7G2DJiVZkI7U2N60W7u680GISVitlzXt5VI+NBs68yNYE9QvXqqG3p+jw8rcwpt5+VByrHS55Hbjdifz0q/uxtP+HnVie1btW8x5/cfjVfYkGeeNethU28mzugnZf8AE6r5jQdXBpft3aIw8LSc+C+c8PnS3cravTQ5GPbx6edeR+FZvffanSy9Gp7VPzPOgzkjliSdSTcmtT9ns9pnXwl08/H3CoIdjWwEkxHbMVI8ig/HU+qqe6U2TFRnrNvXp7qC1v1iy+JK8kAA95++9OPs92eAjzHiTlXyAan4eo1md5r/AMVNfwz763O5JH8Ilutr+ugfUUUUBXnIL3sL8L869UUBRRRQFFFFAUUUUBRRRQJNzO84vxfvaqO39jS4uUAKsca/5t3THyAa289XtzO84vxfvandBjtm7rNh8QjHLLFqCSNV6jbz21HlrYAV9ooCiiigKKKKApftrZ7TIAjtG4IIYEi3I8OOl6YV8JoBeAvxpFs/v/E+hH7qfUh2f3/ifQj91A+rAfaH/dj9E/Ct/WA+0P8Aux+ifhQMPs6/tyel8BWvrnm6O3YcMjiTNdmuMovyFP8As1wv/s9n/tBpKze/s+XDZfDcD1dt8K+rvphSbdv7P/aUfaJirmFB4Jb12A9xoF+40GbEg8lBPy/OtNvxsvpYekUdtHr515+rj66WfZ1BrK/UAvr1+FbZlBFjwNByLZW0nw7l05gg/fX3ZWDbETqnhG7HycTXvb2z+gnePle6+Y8PlWr3B2blQzMNW0XzUGg2lhAcM8Y0GQgequVYGTLIjcLMPfXYnW4I6xXHcfHkkdeFmPv0oHm/OFtOJB3Migg/dYj4/fTL7PtpAZoGPE5l9xHu/Om0mAXGYKMcGygqeojT1GueSJJBJY3R1NB2OisdsffRSAs4sfCHA/KnXZNhPGj1H5UDeoYMUj5grBspsbcjWQ27vkCpSC9zxY8vNSTdR5/4hei5nt78Lc70HUKKKKAooooCiiigKKKKBJuZ3nF+L97U7pJuZ3nF+L97U7oCivhNKdubZiiiezrnynKAdddNKBqjgi4II6xXqsLu/vX0cSxMju97Ll534CtthmYqC4CsRqAb28l6CSiiigKixSsUYIQGI0uLj7xUtFBnd08TKekjmJLIcq3GhC3BseZqTZ/f+J9CP3U9VQOFItn9/wCJ9CP3UD6srvbsCbEujR5bAWNzatVRQc37C8V/p7X/ACjsLxX+ntf8rpFFBzlNzMUCD2nHwv8AlMd4t28TPNmXJlCqou3UNeXXetrRQJd1NlPhoir2zFr6G+lhb406oooM9vVsI4joyvdA2PomnmGgEaKi8FFhUtFAVhdt7pzyTu6ZMrG4ubfCt1RQLN3MHJDAsclswvwNxblRtnYkWJHbCzcmHEfOmdFBzrG7lzqe0KuPPY1Q7GMX4k+sfOuqUUHPcBuTMxBkIQc7amtpsrZceHXKg855mr1FAUUUUBRRRQFFFFAUUUUCTczvOL8X72p3STczvOL8X72p3QQ4rDrIpVuB6iR7q5xvVsZMPIqoxbNrY8Ry+8102ksex8+JbESi9tIx5BzPloMduuhhxcYlS2a4GYcCeBHl5ffXS6jlgVrZlBsQRccxqKkoCiioMbhVlQo17HjY2/MUGabeZYZ5kN5AWumU31Olr8q1ML3UEi1xe3VXNsfsJ4sSY4QZMoD62vbqPXXRMBiekjVrWJGoOhB5i3KgsUh2f3/ifQj91PqQ7P7/AMT6EfuoH1L9oY51dY40zOwvroABTCk+1ImEokCM6FCrBO6F+Y1GnmoPuI2lMoiHRgSSMVsTpoL3vXg7adQ6vH/UUqAAbg5rga8uFLoNjuTFmVghlZspYkquUgXN/NUv8rdFkVUzFZVdW5ut75bnmOGtBbO2ZEzrLGFdVDCxuCL2q/isbk6LTu2t5u1ZvhSnFYeXEM7CNox0eVc9gWN78L6VLmlmMQ6JkEZJYta18hUBde248aD5FtuXIJTGOjLFbg690VvbzirmOx7hxFEoZyubtjYAXt86p7H2IvRqZVbMGY5WY5e7a3a3twtVjGo8eIEwRnUx5CEsSCCWBtzGpoIztlyECoOkMjIyk6AqLmx6rWq4mKkWN3mULlF7Kb3AF6UJst3KF0IDzvIwvqoKBRcjnp+dNsRs4dBJFHpmU2uSdSOs0FePaUwUySRBY8pYEG5Atex8teItryhk6WMKsncEG54XANfGeWWFoehdD0ZUs1soNrC2vbA+SoXE0xhUxMnR6uWtYkDguutBawW3FeB5iLZL3HlHD16euoodsyyCLo0Ul0LWJtaxtVfAbDf+mScq6GRCNWKklfh6hXjZ2yGP8OJFdQsRBsxWxuNCQaC3Jt4rEWKdur5Sg14akjyWBqfaO2Vi6FrXWQ6kcha9/NVSTZTdMqx2SONTYuucMzcf8gSbWqPC7PkvBHIuZYnkUtbQoUIU21sNQKC5j9tdG0gCghEVgb8czKvxoXaUzuyxxqQtr3NuIB+NKJtjzKZlALLkUIesCRWt9wB+4VP/AAQEkhkgke+WxUadyAeY50DJ9oTFykcakoFz3PMi9h86aRkkAkWNtR1Uh2qgdiThpC5UZXS1+F9SCCtj104wCOI0Dm7Aa8/z50FiiiigKKKKAooooEm5necX4v3tTusNu/vXBBh0idZCy5rlQttWLc2HXTHs5w3gS+yv10GoorL9nOG8CX2V+ujs5w3gS+yv10GoorL9nOG8CX2V+ujs5w3gS+yv10GoorL9nOG8CX2V+ujs5w3gS+yv10D2LBATPLxLKqjyAcfzq3WX7OcN4Evsr9dHZzhvAl9lfroNRSHZ/f8AifQj91VeznDeBL7K/XXzdvaC4jF4iVAQpRLZrX0FuRNBqaR7axzpNGgkEaspJYrm6+VxTylO1MBI0ySIEbKpFn4a3oPOFxT9JEnSCQMrksFy3sRbS566rbQ2nIrTKGChZI1BI4Bgb1ZlwcxMciiNZEzDLrlINufEHSozsh2DM5XO8iMwHcgLoAOugqPtiSPpLSLMAoswWwDMwUA6nrFWxiJ4nQSOriRXtZbZWVc/XqLA19xGxCTKqkKkgBt1MpBB81wK9LgZpGVpcg6NWChLm5ZctzfhpfTy0FDDbVkAhbpkkLkBowBmFxrwJr1sXHyTZC2IUEnWPJxtxF81ONmbPWJEBVcyqASBzpfsjZ88IRSkJAOra5rc7acbUHubazDFBLf0gQrH/dtR8PXXnB7Xb+IkjktkzlUPlHI1E27rNGxaRulZi5sxyZr6acNBYVPFsVmWYSEXkIYFf8WHMffQfI9pSHBNNpnAYjTTQkCq+N3gYYdGW3SMbMOojuqtw7KcYQwEguQRflqSaixm7qsJGU9u4XjwBBBJHnAoIW2g7SODOsQW1gUzXuoPWKmz4h5JlWUDogvFL5iVueemo8tfV2dMjuVWJw1u7vcWAHV5K9HB4lXlZOj/AKoW9ydCFsbDnxNBB/PHC5iBpEWI/wBgSvHq0FMNnpOLPJIrKVuRltY2FrHmONVF2CbBSwI6IqTzuSWvbq1/KpVhxZQoTEAEKgi9yeAPkoPOydqNJK6tbI1zH12U2Pn5+qrmxMS0kKO3EjWqCbBMZiaN2JQjR2JFudhyvUmysNiYlSO0ZVdCbm9ufLjQep5ZZZnjjcRiNVJJF7lr2+7SqWIx8omaNpljyqpvkzXJAvzFX8RhJllaSHIc6gMHvoVvYi3nOlV22dOJWltE5ZQDmvYEAXtQfJNqPFMiuQ0XRpme1rMzOA1r6DtaJsVMyzMsgXo2OmW9xYHr0q4uzyzM0gWzwqhA4XBcm3k7YVXwOyHSGaMsGLk5Seq1heggnxMyRxFpgOkbVincjKTa19dRXjFY2RFQjEKweQLnyWCjnpm1q9i9nuUhChGMZuQ3A9qV+NRzbOlk6POsShJA1lvYjnpag9bGxrvI6FxIqgEOBYX6qcUv2bgDC8gW3RsbqOYPMeamFB//2Q=="
+                 alt="Logo" width="215" height="68"></p>
+        <p style="text-align: left;">{{ patient.date_of_recommendation|date:"d.m.Y" }}, Москва</p>
+        <p></p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p style="text-align: left;"><strong>Пациент: </strong>{{ patient.patient_name }}</p>
+        <p style="text-align: left;"><strong>Дата рождения: </strong>{{ patient.patient_dob }}</p>
+        <p style="text-align: right;"><br></p>
+        <p style="text-align: right;"><br></p>
+        {% if patient.diagnoses %}
+            <p style="text-align: left;"><strong>Диагноз: </strong></p>
+            <p style="text-align: left;">{{ patient.diagnoses }}</p>
+            <p style="text-align: left;"><br></p>
+        {% endif %}
+        <p style="text-align: left;"><strong>Рекомендации: </strong></p>
+        <p style="text-align: left;">{{ patient.recommendations }}</p>
+        <p style="text-align: left;"><br></p>
+        {% if patient.diet %}
+            <p style="text-align: left;"><strong>Диета: </strong></p>
+            <p style="text-align: left;">{{ patient.diet }}</p>
+            <p style="text-align: left;"><br></p>
+        {% endif %}
+        <p style="text-align: left;"><br></p>
+        <p style="text-align: left;"><br></p>
+        <p style="text-align: right;">Дата: {{ patient.date_of_recommendation|date:"d.m.Y" }}</p>
+        <p style="text-align: right;">Врач, эндокринолог, диетолог</p>
+        <p style="text-align: right;">Русс Ирина Сергеевна</p>
+    </div>
+
+{% endblock %}

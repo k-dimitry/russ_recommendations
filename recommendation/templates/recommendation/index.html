@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block navbar %}
+{% include "inc/_nav.html" %}
+{% endblock %}
+
+{% block title %}
+    Рекомендации
+{% endblock %}
+
+{% block content %}
+
+    <form class="col-md-8 p-3 ml-3" method="post">
+        {% csrf_token %}
+        {% for field in form %}
+            <div class="form-group">
+                {{ field.label_tag }}
+                {{ field }}
+                <div class="invalid-feedback">
+                    {{ field.errors }}
+                </div>
+            </div>
+        {% endfor %}
+        <button type="submit" class="btn btn-success">Сохранить</button>
+    </form>
+
+{% endblock %}
